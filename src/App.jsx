@@ -10,15 +10,14 @@ function App() {
 
 	const calculateBMI = (e) => {
 		e.preventDefault();
-		// setError("");
+		setError("");
 
-		console.log("weight : ", weight.length)
-		if (weight === "" || (isNaN(weight))) {
+		if (weight === "" || weight === "0" || (isNaN(weight))) {
 
 			setError("Please enter valid value for weight");
 			return;
 		}
-		if (height === "" || isNaN(height)) {
+		if (height === "" || height === "0" || isNaN(height)) {
 			console.log("height : ", isNaN(height))
 			setError("Please enter valid value for height");
 			return;
