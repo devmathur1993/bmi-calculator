@@ -1,0 +1,54 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+.container {
+	color: #000000;
+}
+.error {
+	color: #ff0000;
+}
+.container {
+	padding: 15px;
+	border: 1px solid #000;
+	background-color: #ffffff;
+	box-shadow: 4px 4px 5px #ffffff;
+	border-radius: 3px;
+	min-width: 25em;
+	min-height: 24em;
+}
+.inp-div {
+	display: flex;
+	margin: 10px;
+	justify-content: center;
+}
+.flex-column {
+	flex-direction: column;
+}
+.flex-row {
+	flex-direction: row;
+}
+.inp-field {
+	padding: 7px;
+	border-radius: 3px;
+}
+.inp-label {
+	font-weight: 700;
+}
+
+.btn {
+	outline: none;
+	padding: 5px 10px;
+	margin: 5px 5px;
+	color: #ffffff;
+}
+.btn-submit {
+	background-color: green;
+	border: 1px solid green;
+}
+.btn-reload {
+	background-color: crimson;
+	border: 1px solid crimson;
+}
